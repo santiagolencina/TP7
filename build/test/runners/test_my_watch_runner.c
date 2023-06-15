@@ -15,7 +15,6 @@ extern void test_SetUp_IncorrectTime(void);
 extern void test_GetTime(void);
 extern void test_SetUpAlarm(void);
 extern void test_snoozealarm(void);
-extern void test_saltar_dia(void);
 
 
 /*=======Mock Management=====*/
@@ -90,8 +89,7 @@ int main(void)
   run_test(test_SetUp_IncorrectTime, "test_SetUp_IncorrectTime", 53);
   run_test(test_GetTime, "test_GetTime", 61);
   run_test(test_SetUpAlarm, "test_SetUpAlarm", 72);
-  run_test(test_snoozealarm, "test_snoozealarm", 86);
-  run_test(test_saltar_dia, "test_saltar_dia", 103);
+  run_test(test_snoozealarm, "test_snoozealarm", 85);
 
   return UnityEnd();
 }

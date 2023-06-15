@@ -149,11 +149,6 @@ bool SnoozeAlarm(my_watch_t my_watch, uint8_t no_active){
     return my_watch->snooze_time;    
 }
 
-bool SnoozeAlarm24hs(my_watch_t my_watch){
-    my_watch->alarm_is_activated = false;
-    return my_watch->alarm_is_activated;    
-}
-
 bool AlarmRinging(my_watch_t my_watch) {
     uint8_t time[6];
     uint8_t alarm[6];

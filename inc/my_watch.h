@@ -117,8 +117,3 @@ bool SnoozeAlarm(my_watch_t watch, uint8_t snooze);
 /// @param watch Objeto de tipo reloj
 /// @return
 bool AlarmRinging(my_watch_t watch);
-
-/// @brief Funcion que pospone hora de alarma por 24 horas
-/// @param watch Objeto de tipo reloj
-/// @return
-bool SnoozeAlarm24hs(my_watch_t watch);

@@ -20,19 +20,15 @@
   :message: ''
   :unity_test_time: 0
 - :test: test_snoozealarm
-  :line: 86
-  :message: ''
-  :unity_test_time: 0
-- :test: test_saltar_dia
-  :line: 103
+  :line: 85
   :message: ''
   :unity_test_time: 0
 :failures: []
 :ignores: []
 :counts:
-  :total: 6
-  :passed: 6
+  :total: 5
+  :passed: 5
   :failed: 0
   :ignored: 0
 :stdout: []
-:time: 0.0010047140003734967
+:time: 0.0017049699999915902
