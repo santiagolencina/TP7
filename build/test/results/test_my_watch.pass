@@ -1,0 +1,38 @@
+---
+:source:
+  :path: test
+  :file: test_my_watch.c
+:successes:
+- :test: test_SetUp_CorrectTime
+  :line: 45
+  :message: ''
+  :unity_test_time: 0
+- :test: test_SetUp_IncorrectTime
+  :line: 53
+  :message: ''
+  :unity_test_time: 0
+- :test: test_GetTime
+  :line: 61
+  :message: ''
+  :unity_test_time: 0
+- :test: test_SetUpAlarm
+  :line: 72
+  :message: ''
+  :unity_test_time: 0
+- :test: test_snoozealarm
+  :line: 86
+  :message: ''
+  :unity_test_time: 0
+- :test: test_saltar_dia
+  :line: 103
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 6
+  :passed: 6
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.0010047140003734967

@@ -1,0 +1,9 @@
+{
+    "C_Cpp.errorSquiggles": "enabled",
+    "files.associations": {
+        "stdint.h": "c",
+        "reloj_lib.h": "c",
+        "string.h": "c",
+        "my_watch.h": "c"
+    }
+}
